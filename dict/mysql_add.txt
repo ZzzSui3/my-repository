@@ -1,0 +1,16 @@
+# 在MySQL数据库中创建库和表
+
+# 创建数据库
+create database dict charset=utf8;
+
+# 进入数据库
+use disc
+
+# 创建user表
+create table user(id int primary key auto_increment,name varchar(32),passwd varchar(16));
+
+# 创建hist表
+create table hist(id int primary key auto_increment,name varchar(32),word varchar(32),time varchar(64));
+
+# 创建wordList表
+create table wordList(word varchar(128),explains varchar(512));
